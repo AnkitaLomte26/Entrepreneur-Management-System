@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 class DatabaseManager {
     private static final String url = "jdbc:mysql://localhost:3306/miniproject";
     private static final String username = "root";
-    private static final String password = "Ankita@2006";
+    private static final String password = "*********";
 
     static Connection getConnection() throws SQLException {
         Connection conn = null;
